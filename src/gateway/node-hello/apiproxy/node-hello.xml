@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="3" name="hello">
+    <Basepaths>/v1/hello</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1464467282070</CreatedAt>
+    <CreatedBy>srinivas.sudhindra@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>node-hello</DisplayName>
+    <LastModifiedAt>1464467698697</LastModifiedAt>
+    <LastModifiedBy>srinivas.sudhindra@apigee.com</LastModifiedBy>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://node-hello.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
